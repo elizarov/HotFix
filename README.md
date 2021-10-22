@@ -7,7 +7,7 @@ For a discussion of the problem see https://codeforces.com/blog/entry/67341
 > However, this option significantly slows down computational code, because C1 compiler is much
 > worse at optimizing code than C2 compiler.
 
-This project introduces a workaround that does works with HotSpot C2 compiler.
+This project introduces a workaround that works with HotSpot C2 compiler.
 
 **Step 1.** Compiled classes need to be preprocessed with this `HotFix` tool.
 
